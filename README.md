@@ -87,7 +87,7 @@ sudo sonobuoy results <RESULT_FILE>.tar.gz
 
 ```
 
-### Stop the sonobuoy test
+### Stop the Sonobuoy test
 
 ```
 sudo sonobuoy delete

@@ -12,9 +12,9 @@ This tool is used for cluster owners to ensure their Kubernetes cluster follows 
 
 # Steps:
 
- 1-Installing Sonobuoy
- 2-Running sonobuoy
- 3-get test results
+ * 1-Installing Sonobuoy
+ * 2-Running sonobuoy
+ * 3-get test results
 
 
 ## 1-Installing Sonobuoy

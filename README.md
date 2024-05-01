@@ -103,7 +103,7 @@ buildImageRegistry: <PRIVATE-REGISTRY>/build-image
 dockerGluster: <PRIVATE-REGISTRY>/gluster
 dockerLibraryRegistry: <PRIVATE-REGISTRY>/library
 e2eRegistry: <PRIVATE-REGISTRY>/kubernetes-e2e-test-images
-e2eVolumeRegistry:<PRIVATE-REGISTRY>/kubernetes-e2e-test-images/volume
+e2eVolumeRegistry: <PRIVATE-REGISTRY>/kubernetes-e2e-test-images/volume
 gcRegistry: <PRIVATE-REGISTRY>
 gcEtcdRegistry: <PRIVATE-REGISTRY>
 promoterE2eRegistry: <PRIVATE-REGISTRY>/e2e-test-images

@@ -113,7 +113,7 @@ sigStorageRegistry: <PRIVATE-REGISTRY>/sig-storage
 ### Run the test with private registry
 
 ```
-sudo sonobuoy run -m non-disruptive-conformance --e2e-repo-config custom-repo.config.yaml  --sonobuoy-image <PRIVATE-REGISTRY>/sonobuoy/sonobuoy:v0.56.16  --kube-conformance-image <PRIVATE-REGISTRY>/conformance:v1.26.1 --systemd-logs-image  <PRIVATE-REGISTRY>/sonobuoy/systemd-logs:v0.4
+sudo sonobuoy run -m non-disruptive-conformance --e2e-repo-config custom-repo.config.yaml  --sonobuoy-image <PRIVATE-REGISTRY>/sonobuoy/sonobuoy:<TAG>  --kube-conformance-image <PRIVATE-REGISTRY>/conformance:<TAG> --systemd-logs-image  <PRIVATE-REGISTRY>/sonobuoy/systemd-logs:<TAG>
 
 ```
 

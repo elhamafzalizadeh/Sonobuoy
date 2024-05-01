@@ -55,6 +55,15 @@ sudo sonobuoy run -m non-disruptive-conformance
 
 ```
 
+### Check Logs
+
+```
+ sudo kubectl get logs -f sonobuoy -n sonobuoy
+
+```
+
+It takes about 80 minutes to complete.(About 369 test cases in this mode)
+
 
 
 

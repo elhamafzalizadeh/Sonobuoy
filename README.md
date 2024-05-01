@@ -94,5 +94,26 @@ sudo sonobuoy delete
 
 ```
 
+# Pulling Sonobuoy Images from a Private Repository
 
+Create a yaml file like: `custom-repo.config.yaml
 
+<details>
+<summary><b>View:custom-repo.config.yaml</b></summary>
+<br>
+
+```yaml
+buildImageRegistry: <PRIVATE-REGISTRY>/build-image
+dockerGluster: <PRIVATE-REGISTRY>/gluster
+dockerLibraryRegistry: <PRIVATE-REGISTRY>/library
+e2eRegistry: <PRIVATE-REGISTRY>/kubernetes-e2e-test-images
+e2eVolumeRegistry:<PRIVATE-REGISTRY>/kubernetes-e2e-test-images/volume
+gcRegistry: <PRIVATE-REGISTRY>
+gcEtcdRegistry: <PRIVATE-REGISTRY>
+promoterE2eRegistry: <PRIVATE-REGISTRY>/e2e-test-images
+sigStorageRegistry: <PRIVATE-REGISTRY>/sig-storage
+
+<br>
+</details>
+
+---

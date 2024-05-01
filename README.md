@@ -108,5 +108,3 @@ gcRegistry: <PRIVATE-REGISTRY>
 gcEtcdRegistry: <PRIVATE-REGISTRY>
 promoterE2eRegistry: <PRIVATE-REGISTRY>/e2e-test-images
 sigStorageRegistry: <PRIVATE-REGISTRY>/sig-storage
-
----

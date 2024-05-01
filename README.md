@@ -96,7 +96,7 @@ sudo sonobuoy delete
 
 # Pulling Sonobuoy Images from a Private Repository
 
-Create a yaml file like: `custom-repo.config.yaml
+Create a yaml file like: custom-repo.config.yaml
 
 ```yaml
 buildImageRegistry: <PRIVATE-REGISTRY>/build-image

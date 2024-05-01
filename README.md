@@ -98,6 +98,7 @@ sudo sonobuoy delete
 
 Create a yaml file like: `custom-repo.config.yaml
 
+```
 <details>
 <summary><b>View:custom-repo.config.yaml</b></summary>
 <br>

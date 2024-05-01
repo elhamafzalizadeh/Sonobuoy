@@ -43,8 +43,3 @@ sudo sonobuoy run --wait --mode quick
 ```
 
 
-
-
-<details>
-<summary><b>View:ConstraintTemplate-k8srequiredlabels.yaml</b></summary>
-<br>

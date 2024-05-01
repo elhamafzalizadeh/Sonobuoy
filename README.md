@@ -45,8 +45,15 @@ sudo sonobuoy run --wait --mode quick
 
 ### Test Modes
 
-For running the main tests we should review the test modes first:
+For running the main tests,we should review the test modes for running the e2e plugin. Valid modes are [certified-conformance conformance-lite non-disruptive-conformance quick]. (default:non-disruptive-conformance)
 
+
+### Main Test
+
+```
+sudo sonobuoy run -m non-disruptive-conformance
+
+```
 
 
 

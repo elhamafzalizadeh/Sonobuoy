@@ -36,10 +36,18 @@ sudo mv sonobuoy /usr/local/bin/
 
 ## 2-Running Sonobuoy
 
+Use the following command to check the status of each of the plugins.
 
 ```
 sudo sonobuoy run --wait --mode quick
 
 ```
+
+### Test Modes
+
+For running the main tests we should review the test modes first:
+
+
+
 
 

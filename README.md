@@ -13,8 +13,8 @@ This tool is used for cluster owners to ensure their Kubernetes cluster follows 
 # Steps:
 
  * 1-Installing Sonobuoy
- * 2-Running sonobuoy
- * 3-get test results
+ * 2-Running Sonobuoy
+ * 3-Test Results
 
 
 ## 1-Installing Sonobuoy
@@ -62,7 +62,32 @@ sudo sonobuoy run -m non-disruptive-conformance
 
 ```
 
-It takes about 80 minutes to complete.(About 369 test cases in this mode)
+It takes about 80 minutes to complete.(About 369 test cases)
+
+### Check Passed & Failed count during the test
+
+```
+ sudo sonobuoy status
+
+```
+
+## 3-Test Results
+
+```
+sudo sonobuoy retrieve
+
+```
+
+You can see the result file.(like 202308051043_sonobuoy_b8662f33-b4b8-4182-90a0-e7dd343a43a8.tar.gz)
+
+### Check the result of test after completing.
+
+```
+sudo sonobuoy results <RESULT_FILE>.tar.gz
+
+```
+
+
 
 
 

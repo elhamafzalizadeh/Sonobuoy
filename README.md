@@ -19,7 +19,7 @@ This tool is used for cluster owners to ensure their Kubernetes cluster follows 
 
 ## 1-Installing Sonobuoy
 
-For installing gatekeeper follow these steps:
+For installing Sonobuoy follow these steps:
 
 ### Download the latest release
 
@@ -36,7 +36,7 @@ sudo mv sonobuoy /usr/local/bin/
 
 ## 2-Running Sonobuoy
 
-Use the following command to check the status of each of the plugins.
+Use the following command to check only the status of each of the plugins.
 
 ```
 sudo sonobuoy run --wait --mode quick
@@ -62,9 +62,9 @@ sudo sonobuoy run -m non-disruptive-conformance
 
 ```
 
-It takes about 80 minutes to complete.(About 369 test cases)
+It takes about 80 minutes to complete.(About 369 test cases for  non-disruptive-conformance mode)
 
-### Check Passed & Failed count during the test
+### Check Passed & Failed during the test
 
 ```
  sudo sonobuoy status

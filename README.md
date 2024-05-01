@@ -16,3 +16,35 @@ This tool is used for cluster owners to ensure their Kubernetes cluster follows 
  2-Running sonobuoy
  3-get test results
 
+
+## 1-Installing Sonobuoy
+
+For installing gatekeeper follow these steps:
+
+### Download the latest release
+
+Download the latest release from https://github.com/vmware-tanzu/sonobuoy/releases
+
+### Extract
+
+```
+tar -xvf <RELEASE_NAME>.tar.gz
+
+sudo mv sonobuoy /usr/local/bin/
+
+```
+
+## 2-Running Sonobuoy
+
+
+```
+sudo sonobuoy run --wait --mode quick
+
+```
+
+
+
+
+<details>
+<summary><b>View:ConstraintTemplate-k8srequiredlabels.yaml</b></summary>
+<br>

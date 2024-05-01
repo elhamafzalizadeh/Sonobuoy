@@ -98,11 +98,6 @@ sudo sonobuoy delete
 
 Create a yaml file like: `custom-repo.config.yaml
 
-```
-<details>
-<summary><b>View:custom-repo.config.yaml</b></summary>
-<br>
-
 ```yaml
 buildImageRegistry: <PRIVATE-REGISTRY>/build-image
 dockerGluster: <PRIVATE-REGISTRY>/gluster
@@ -113,8 +108,5 @@ gcRegistry: <PRIVATE-REGISTRY>
 gcEtcdRegistry: <PRIVATE-REGISTRY>
 promoterE2eRegistry: <PRIVATE-REGISTRY>/e2e-test-images
 sigStorageRegistry: <PRIVATE-REGISTRY>/sig-storage
-
-<br>
-</details>
 
 ---
